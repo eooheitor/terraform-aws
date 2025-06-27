@@ -1,0 +1,32 @@
+# Diretório onde o Terraform guarda plugins e arquivos de provider
+.terraform/
+
+# Arquivos de estado que armazenam a infraestrutura provisionada
+terraform.tfstate
+terraform.tfstate.backup
+
+# Variáveis sensíveis (se existirem)
+*.tfvars
+*.tfvars.json
+
+# Planos temporários
+terraform.plan
+
+# Logs e arquivos de saída temporários
+crash.log
+*.log
+
+# Arquivos de override locais
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Diretórios ocultos (ex: backups locais)
+.terraform.lock.hcl
+
+# Arquivos de sistema (macOS, Linux, Windows)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
